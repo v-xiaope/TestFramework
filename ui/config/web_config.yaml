@@ -1,11 +1,19 @@
 env: srol1
 browser: chrome
+admin: SpotlightVideos
 portal:
   msit: https://msit.microsoftstream.com
   ppe: https://ppe.microsoftstream.com
   srol1: https://web-srol-1.stream.azure-test.net
   srol2: https://web-srol-2.stream.azure-test.net
   refe: https://web-refe-1.stream.azure-test.net
+adminURL:
+  SpotlightVideos: https://web-srol-1.stream.azure-test.net/admin?view=SpotlightVideos
+  company: https://web-srol-1.stream.azure-test.net/video/0ed5fb5d-1500-a605-f8b5-f1eb40f6bbf2
+  Limited: https://web-srol-1.stream.azure-test.net/video/06d1fb5d-1500-a60d-6310-f1eb433b05b2
+  Live: https://web-srol-1.stream.azure-test.net/video/06d1fb5d-1500-a60d-0cae-f1eb435845fc
+  video: https://web-srol-1.stream.azure-test.net/video/10f4fb5d-1500-a936-205a-f1eaa0ff141b
+  
 user:
   test1: test1@media.ccsctp.net
   test2: test2@media.ccsctp.net
@@ -16,5 +24,5 @@ user:
   streamadmin: streamadmin@media.ccsctp.net
   personalAccount: XXX@microsoft.com
 pwd:
-  commonpwd: xxx
-implicitly_wait: 10
+  commonpwd: P@$$w0rd2
+implicitly_wait: 60

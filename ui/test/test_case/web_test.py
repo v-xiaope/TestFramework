@@ -10,6 +10,7 @@ from ui.lib.base_runner import BaseWebTestCase
 from common.lib.base_yaml import Yaml
 from ui.lib.browser_engine import Logger, web_config_path
 
+
 class web_test(BaseWebTestCase):
     def __init__(self, *args, **kwargs):
         BaseWebTestCase.__init__(self, *args, **kwargs)
@@ -30,4 +31,3 @@ class web_test(BaseWebTestCase):
 
 if __name__ == '__main__':
     unittest.main()
-
